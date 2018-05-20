@@ -77,6 +77,17 @@
 		65F55F2F1B5942A4008653F2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65F55F211B592D91008653F2 /* Localizable.strings */; };
 		65F55F321B5F965F008653F2 /* drop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 65F55F311B5D0A0E008653F2 /* drop.caf */; };
 		78102F005B62795FB0E7170D /* Pods_GulpsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E28A47EF2AA14E880CD719 /* Pods_GulpsTests.framework */; };
+		C82F29EB20ACC95100CC64EB /* GulpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82F29EA20ACC95100CC64EB /* GulpsUITests.swift */; };
+		C82F29F420ACCEA700CC64EB /* DrinkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82F29F320ACCEA700CC64EB /* DrinkScreen.swift */; };
+		C82F29F720ACD1C200CC64EB /* ElementAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82F29F620ACD1C200CC64EB /* ElementAssertions.swift */; };
+		C82F29F920ACD21900CC64EB /* ElementWaiting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82F29F820ACD21900CC64EB /* ElementWaiting.swift */; };
+		C82F29FB20AD9FDC00CC64EB /* PreferencesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82F29FA20AD9FDC00CC64EB /* PreferencesScreen.swift */; };
+		C82F29FE20ADB1F800CC64EB /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82F29FD20ADB1F800CC64EB /* TabBar.swift */; };
+		C82F2A0220AE29DE00CC64EB /* MyProgressScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82F2A0120AE29DE00CC64EB /* MyProgressScreen.swift */; };
+		C8C62CC620AEC01600E8A8A2 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C62CC520AEC01600E8A8A2 /* Actions.swift */; };
+		C8C62CC820AEC07E00E8A8A2 /* PageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C62CC720AEC07E00E8A8A2 /* PageObject.swift */; };
+		C8C62CCC20AEEEC800E8A8A2 /* BaseUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C62CCB20AEEEC800E8A8A2 /* BaseUITestCase.swift */; };
+		C8C62CCE20AEF4F300E8A8A2 /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C62CCD20AEF4F300E8A8A2 /* OnBoardingScreen.swift */; };
 		FBB8EFB826571DA94722706E /* Pods_GulpsToday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCE464AA359610B577E6289 /* Pods_GulpsToday.framework */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +119,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 65F44C431AF24B770093A3E9;
 			remoteInfo = GulpsToday;
+		};
+		C82F29ED20ACC95100CC64EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65F44C131AF24B440093A3E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F44C1A1AF24B440093A3E9;
+			remoteInfo = Gulps;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -244,6 +262,19 @@
 		85BE9125F183E330586CDDB6 /* Pods-GulpsToday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GulpsToday.release.xcconfig"; path = "Pods/Target Support Files/Pods-GulpsToday/Pods-GulpsToday.release.xcconfig"; sourceTree = "<group>"; };
 		8CCE464AA359610B577E6289 /* Pods_GulpsToday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GulpsToday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF54771E89C4A5561E72D70 /* Pods-Gulps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gulps.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gulps/Pods-Gulps.release.xcconfig"; sourceTree = "<group>"; };
+		C82F29E820ACC95100CC64EB /* GulpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GulpsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82F29EA20ACC95100CC64EB /* GulpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GulpsUITests.swift; sourceTree = "<group>"; };
+		C82F29EC20ACC95100CC64EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82F29F320ACCEA700CC64EB /* DrinkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkScreen.swift; sourceTree = "<group>"; };
+		C82F29F620ACD1C200CC64EB /* ElementAssertions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementAssertions.swift; sourceTree = "<group>"; };
+		C82F29F820ACD21900CC64EB /* ElementWaiting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementWaiting.swift; sourceTree = "<group>"; };
+		C82F29FA20AD9FDC00CC64EB /* PreferencesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesScreen.swift; sourceTree = "<group>"; };
+		C82F29FD20ADB1F800CC64EB /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		C82F2A0120AE29DE00CC64EB /* MyProgressScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgressScreen.swift; sourceTree = "<group>"; };
+		C8C62CC520AEC01600E8A8A2 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		C8C62CC720AEC07E00E8A8A2 /* PageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageObject.swift; sourceTree = "<group>"; };
+		C8C62CCB20AEEEC800E8A8A2 /* BaseUITestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUITestCase.swift; sourceTree = "<group>"; };
+		C8C62CCD20AEF4F300E8A8A2 /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
 		F8B4C7511CC6AFD599BF0ECB /* Pods-GulpsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GulpsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GulpsTests/Pods-GulpsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF3158CC554F243E9F4ABEB9 /* Pods-GulpsToday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GulpsToday.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GulpsToday/Pods-GulpsToday.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -283,6 +314,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		997745B21650E868D61D4388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82F29E520ACC95100CC64EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -415,6 +453,7 @@
 				65F44C5B1AF24B8A0093A3E9 /* Gulps WatchKit Extension */,
 				65F44C6D1AF24B8A0093A3E9 /* Gulps WatchKit App */,
 				654764B51AF267D100C68C2A /* GulpsTests */,
+				C82F29E920ACC95100CC64EB /* GulpsUITests */,
 				65F44C451AF24B770093A3E9 /* Frameworks */,
 				65F44C1C1AF24B440093A3E9 /* Products */,
 				F244A5079F43F4362F0AE494 /* Pods */,
@@ -431,6 +470,7 @@
 				65F44C5A1AF24B8A0093A3E9 /* Gulps WatchKit Extension.appex */,
 				65F44C691AF24B8A0093A3E9 /* Gulps WatchKit App.app */,
 				654764B41AF267D100C68C2A /* GulpsTests.xctest */,
+				C82F29E820ACC95100CC64EB /* GulpsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -532,6 +572,41 @@
 				65F44C6F1AF24B8A0093A3E9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C82F29E920ACC95100CC64EB /* GulpsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C82F29F520ACD1A600CC64EB /* Helpers */,
+				C82F29F220ACCE9200CC64EB /* Screens */,
+				C82F29EA20ACC95100CC64EB /* GulpsUITests.swift */,
+				C82F29EC20ACC95100CC64EB /* Info.plist */,
+			);
+			path = GulpsUITests;
+			sourceTree = "<group>";
+		};
+		C82F29F220ACCE9200CC64EB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C82F29F320ACCEA700CC64EB /* DrinkScreen.swift */,
+				C82F29FA20AD9FDC00CC64EB /* PreferencesScreen.swift */,
+				C82F29FD20ADB1F800CC64EB /* TabBar.swift */,
+				C82F2A0120AE29DE00CC64EB /* MyProgressScreen.swift */,
+				C8C62CCD20AEF4F300E8A8A2 /* OnBoardingScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C82F29F520ACD1A600CC64EB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C82F29F620ACD1C200CC64EB /* ElementAssertions.swift */,
+				C82F29F820ACD21900CC64EB /* ElementWaiting.swift */,
+				C8C62CC520AEC01600E8A8A2 /* Actions.swift */,
+				C8C62CC720AEC07E00E8A8A2 /* PageObject.swift */,
+				C8C62CCB20AEEEC800E8A8A2 /* BaseUITestCase.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		F244A5079F43F4362F0AE494 /* Pods */ = {
@@ -650,13 +725,31 @@
 			productReference = 65F44C691AF24B8A0093A3E9 /* Gulps WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
+		C82F29E720ACC95100CC64EB /* GulpsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82F29F120ACC95100CC64EB /* Build configuration list for PBXNativeTarget "GulpsUITests" */;
+			buildPhases = (
+				C82F29E420ACC95100CC64EB /* Sources */,
+				C82F29E520ACC95100CC64EB /* Frameworks */,
+				C82F29E620ACC95100CC64EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C82F29EE20ACC95100CC64EB /* PBXTargetDependency */,
+			);
+			name = GulpsUITests;
+			productName = GulpsUITests;
+			productReference = C82F29E820ACC95100CC64EB /* GulpsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		65F44C131AF24B440093A3E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Fancy Pixel";
 				TargetAttributes = {
@@ -708,6 +801,11 @@
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
+					C82F29E720ACC95100CC64EB = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65F44C1A1AF24B440093A3E9;
+					};
 				};
 			};
 			buildConfigurationList = 65F44C161AF24B440093A3E9 /* Build configuration list for PBXProject "Gulps" */;
@@ -731,6 +829,7 @@
 				65F44C431AF24B770093A3E9 /* GulpsToday */,
 				65F44C591AF24B8A0093A3E9 /* Gulps WatchKit Extension */,
 				654764B31AF267D100C68C2A /* GulpsTests */,
+				C82F29E720ACC95100CC64EB /* GulpsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -785,6 +884,13 @@
 			files = (
 				65F44C721AF24B8A0093A3E9 /* Interface.storyboard in Resources */,
 				65F44C741AF24B8A0093A3E9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82F29E620ACC95100CC64EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1049,6 +1155,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C82F29E420ACC95100CC64EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82F29F920ACD21900CC64EB /* ElementWaiting.swift in Sources */,
+				C8C62CC620AEC01600E8A8A2 /* Actions.swift in Sources */,
+				C82F29F420ACCEA700CC64EB /* DrinkScreen.swift in Sources */,
+				C82F29EB20ACC95100CC64EB /* GulpsUITests.swift in Sources */,
+				C8C62CCC20AEEEC800E8A8A2 /* BaseUITestCase.swift in Sources */,
+				C8C62CC820AEC07E00E8A8A2 /* PageObject.swift in Sources */,
+				C82F29FE20ADB1F800CC64EB /* TabBar.swift in Sources */,
+				C82F29F720ACD1C200CC64EB /* ElementAssertions.swift in Sources */,
+				C82F2A0220AE29DE00CC64EB /* MyProgressScreen.swift in Sources */,
+				C8C62CCE20AEF4F300E8A8A2 /* OnBoardingScreen.swift in Sources */,
+				C82F29FB20AD9FDC00CC64EB /* PreferencesScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1071,6 +1195,11 @@
 			isa = PBXTargetDependency;
 			target = 65F44C431AF24B770093A3E9 /* GulpsToday */;
 			targetProxy = 65F44C4F1AF24B780093A3E9 /* PBXContainerItemProxy */;
+		};
+		C82F29EE20ACC95100CC64EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F44C1A1AF24B440093A3E9 /* Gulps */;
+			targetProxy = C82F29ED20ACC95100CC64EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1511,6 +1640,60 @@
 			};
 			name = Release;
 		};
+		C82F29EF20ACC95100CC64EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GulpsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulps.GulpsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gulps;
+			};
+			name = Debug;
+		};
+		C82F29F020ACC95100CC64EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GulpsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulps.GulpsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gulps;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1564,6 +1747,15 @@
 			buildConfigurations = (
 				65F44C7C1AF24B8A0093A3E9 /* Debug */,
 				65F44C7D1AF24B8A0093A3E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82F29F120ACC95100CC64EB /* Build configuration list for PBXNativeTarget "GulpsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82F29EF20ACC95100CC64EB /* Debug */,
+				C82F29F020ACC95100CC64EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
