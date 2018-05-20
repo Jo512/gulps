@@ -168,5 +168,10 @@ class GulpsUITests: BaseUITestCase {
  
  2. User is able to add gulps in calendar screen, howeever there is no undo action in calendar screen. User has to navigate to drink screen to undo previous action
  
+ 
+ 3. I've reset goals before verifying the scenario, however this did take up test execution time. As a tester and user, I would like to have reset all gulps button along with undo previous action only.
+ 
+    If this is not a business requirement, atleast in development have a debug settings to reset data. This will save test execution time a lot.
+ 
  */
 
